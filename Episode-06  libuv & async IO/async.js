@@ -10,7 +10,8 @@ fs.readFileSync('./file.txt','utf-8',(err,data)=>{
 })
 
 //just below console will execute after file read
-// console.log("Hello! Async");
+console.log("Hello! Async");
+
 var a=1078698;
 var b=20986;
 
