@@ -22,3 +22,10 @@ console.log("Last Line of the file.")
 //Output 
 // a = 100
 // Last Line of the file
+//Time Expired
+//Set Immidiate
+//File Reading CB
+
+//Event loop of Nodejs : Timer -> poll -> check -> close
+
+//Every task is store in queue at the event loop time
