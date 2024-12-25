@@ -4,9 +4,7 @@ setImmediate(() => {
     console.log('setImmediate')
 })
 
-Promise.resolve(() => {
-    console.log('Promise')
-})
+Promise.resolve().then(() => {console.log('Promise')});
 
 fs.readFile("file.js", "utf8", () => {
     console.log('File read')
@@ -30,6 +28,7 @@ console.log('end of file');
 
 
 // Ouptut 
+// 100
 // end of file
 // next Tick
 // Promise
