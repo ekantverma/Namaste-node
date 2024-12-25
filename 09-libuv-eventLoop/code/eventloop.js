@@ -1,10 +1,11 @@
+const fs = require('fs');
 const a = 100;
 
 setImmediate(() => {
     console.log("Set Immidiate");
 })
 
-fs.readFile("./file.txt", "utf8", (err, data) => {
+fs.readFile("./file.txt", "utf8", () => {
     console.log("File Reading CB");
 });
 
