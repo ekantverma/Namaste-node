@@ -9,6 +9,7 @@ setTimeout(() => console.log("Timer Expired"), 0);
 //Promise
 Promise.resolve().then(() => console.log("Promise"));
 
+//Check
 fs.readFile("file.txt", "utf8", () => {
     setTimeout(() => console.log("2nd Timer"), 0);
     Promise.resolve().then(() => console.log("2nd promise"));
