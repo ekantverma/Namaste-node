@@ -1,8 +1,6 @@
 // Explore V8 repository and libuv library docs(libuv/src/unix/core)
 
 // How libuv works in nodejs ?
-//  |
-//  |
 //  --> libuv is a C library that provides support for asynchronous I/O operations.
 //  --> It is used by Node.js to handle asynchronous tasks such as reading and writing files, network operations, and timers.
 //  --> libuv is responsible for scheduling and executing these tasks in the background, allowing Node.js

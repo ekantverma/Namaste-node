@@ -1,0 +1,49 @@
+Whats Server ?
+A server is a computer or system that provides resources, data, services, or programs to other 
+computers, known as clients, over a network.
+
+We can use our computer as server and we dont need AWS, but there are some limitations
+    - Limited ram space
+    - Limited storage space
+    - Always up and running
+    - can't scale 
+    - Security issues
+    - We use a local internet provider, they dont guarantee your IP, But AWS guarantee you a IP.
+
+AWS has a big data centers in multiple regions.
+In AWS we can scale the storage space
+
+You are creating a http server using node js 
+ - you are creating a applications that can handle user requests.
+
+Client-Server Architecture
+Client-server architecture is a computing model where multiple clients (remote computers) 
+request and receive services from a centralized server (a powerful computer). The server hosts, 
+delivers, and manages most of the resources and services to be consumed by the client. This model 
+is commonly used in web applications, where the server hosts the website, and clients access it 
+through their web browsers.
+
+TCP / IP connections ?
+TCP/IP (Transmission Control Protocol/Internet Protocol) is a set of communication protocols used 
+to connect network devices on the internet. TCP ensures reliable data transmission between 
+devices, while IP handles addressing and routing the data packets to their destination.
+
+Types of servers 
+1. HTTP server (Hyper text transfer protocol)
+2. FTP server (File Transfer protocol)
+3. SMTP server (Simple maail Transfer protocol)
+
+When we talk about Node, we can talk about the HTTPS server in web server
+
+Server Listents to the request
+
+Pockets : Data are send in small chunks to the server called as Pockets
+Server receives the packets and reassemble them into the original data.
+
+We can create multiple of http server inside a server, but you would need a different port number 
+eg : (Localhost:8080);
+
+Port number is a needed so that other people can connect to the your applications.
+
+
+
