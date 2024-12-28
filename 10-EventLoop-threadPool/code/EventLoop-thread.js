@@ -48,4 +48,4 @@
 //  --> This will increase the size of the thread pool to 8, allowing more tasks to
 //      be executed asynchronously at the same time.
 
-// Study about Epoll and kqueue (Linus and MacOs)
+// Study about Epoll and kqueue (Linus and MacOs), Event amitter and Event Listener, stream and buffer, Pipes
