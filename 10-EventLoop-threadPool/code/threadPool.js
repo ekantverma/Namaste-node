@@ -8,9 +8,9 @@ crypto.pbkdf2("password", "salt", 5000000, 50, "sha512", (err, key) => {
   console.log("1 - CryptoPKBDF2: done");
 });
 
-// fs.readFile('multitask.js', 'utf8', () => {
-//   console.log("FS: done");
-// });
+fs.readFile('multitask.js', 'utf8', () => {
+  console.log("FS: done");
+});
 
 crypto.pbkdf2("password", "salt", 5000000, 50, "sha512", (err, key) => {
   console.log("2 - CryptoPKBDF2: done");

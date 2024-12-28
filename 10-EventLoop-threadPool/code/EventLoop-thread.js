@@ -47,3 +47,5 @@
 //      UV_THREADPOOL_SIZE=8
 //  --> This will increase the size of the thread pool to 8, allowing more tasks to
 //      be executed asynchronously at the same time.
+
+// Study about Epoll and kqueue (Linus and MacOs)
