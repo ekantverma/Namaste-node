@@ -1,0 +1,6 @@
+What is database?, what is dbms?
+Database is an orgnized collection of data, or a type of data store based on the use of database 
+managament system.
+DBMS is a software that interect with end users, application and database itself to capture and 
+analyse the data.
+
