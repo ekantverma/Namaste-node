@@ -45,5 +45,21 @@ eg : (Localhost:8080);
 
 Port number is a needed so that other people can connect to the your applications.
 
+What is DNS?
+DNS (Domain Name System) is a system that translates human-readable domain names (like www.example.com) into IP addresses (like 192.0.2.1) that computers use to identify each other on the network. It acts like a phonebook for the internet, allowing users to access websites using easy-to-remember names instead of numerical IP addresses.
+
+A server can talk / connect with the another server.
+
+Sockets vs WebSockets
+Sockets:
+- Low-level communication endpoints used for sending and receiving data between devices over a network.
+- Can be used with various protocols like TCP and UDP.
+- Typically used for traditional client-server communication.
+
+WebSockets:
+- A protocol providing full-duplex communication channels over a single TCP connection.
+- Designed for real-time web applications.
+- Allows for persistent, bidirectional communication between a client (usually a web browser) and a server.
+
 
 
