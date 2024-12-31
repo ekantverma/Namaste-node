@@ -14,6 +14,22 @@ async function main() {
     const collection = db.collection("User");
 
     // Read from the db
+    const users = await collection.find({}).toArray();
+    console.log(users);
+
+    const data = {
+        first_name: "John",
+        last_name: "Doe",
+        add: "usa"
+    }
+
+    const insert = await collection.insertMany([data]);
+    console.log("inserted : ", insert);
+
+    // Insert a new document
+    // const insert = await collection.insertOne({first_name: "John", last_name: "Doe", add:"usa"});
+    // console.log(insert);
+
     return 'done';
   } catch(err){
     console.log("Error connecting to MongoDB");
